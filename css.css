@@ -1,0 +1,237 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-image: url(http://wp.widewallpapers.ru/2k/abstract-light/1920x1200/light-abstract-wide-wallpaper-1920x1200-002.jpg);
+	background-size: cover;
+	display: flex;
+	font-weight: bold;
+	font-size: x-large;
+	line-height: 1.5;
+}
+
+#inform {
+	width: 100%;
+	position: absolute;
+	margin-top: 6%;
+}
+
+#main {
+	float: left;
+	position: relative;
+	width: 30%;
+	background-color: white;
+	border: pink solid 2px;
+	padding-left: 1%;
+	display: inline-block;
+	margin: 2%;
+}
+
+#portr {
+	margin: 2%;
+	float: left;
+	width: 27%;
+	display: inline-block;
+	height: 27%;
+}
+
+#button_bar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	
+}
+
+.but {
+	display: inline-block;
+	margin-left: 2%;
+	margin-top: 0.5%;
+	background-color: white;
+	border: pink solid 2px;
+}
+
+#education {
+	float: left;
+	width: 40%;
+	line-height: 1.3;
+	display: none;
+	background-color: white;
+	margin-left: 5%;
+	border: pink solid 2px;
+	padding-left: 1%;
+}
+
+#experience {
+	
+	width:30%;
+	float:left;
+	display: none;
+	background-color: white;
+	margin-left: 5%;
+	border: pink solid 2px;
+	padding-left: 1%;
+}
+#wrk{
+	text-align: center;
+	
+}
+
+#skillslang {
+	float: left;
+	display: none;
+	width: 30%;
+	background-color: white;
+	margin-left: 5%;
+	border: pink solid 2px;
+	padding-left: 1%;
+}
+
+
+
+#languages {
+	display: inline-block;
+}
+
+#quote {
+	display: none;
+	position: relative;
+	width: 50%;
+	float: right;
+	margin-right: 5%;
+}
+#skls{
+	text-align: center;
+}
+
+.hor_icon {
+	width: 15%;
+}
+
+p {
+	text-decoration-line: underline;
+}
+
+#hor_txt {
+	text-align: left;
+}
+
+#horoscope {
+	float: left;
+	display: inline-block;
+	margin: 2%;
+	text-align: center;
+	position: relative;
+	width: 27%;
+	height: 10%;
+	margin-top: 0;
+	font-size: large;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+#qbutton {
+	background-color: hotpink;
+	border-radius: 50%;
+	padding: 5%;
+	border: deeppink solid 3px;
+}
+
+#qtxt {
+	background-color: white;
+	font-size: large;
+	font-weight: normal;
+	line-height: 1;
+}
+
+#educ {
+	border-radius: 50%;
+	padding: 0.8%;
+	border: deeppink solid 3px;
+	cursor: pointer;
+}
+
+#exp {
+	cursor: pointer;
+	border-radius: 50%;
+	padding: 0.8%;
+	border: deeppink solid 3px;
+}
+
+#skills {
+	cursor: pointer;
+	border-radius: 50%;
+	padding: 0.8%;
+	border: deeppink solid 3px;
+}
+
+#personal {
+	cursor: pointer;
+	margin-left: 2%;
+	border-radius: 50%;
+	padding: 0.8%;
+}
+
+#author {
+	font-size: large;
+	font-weight: normal;
+	line-height: 1;
+	background-color: white;
+}
+
+#weather {
+	float: right;
+	position: relative;
+	display: inline;
+	margin-right: 8%;
+	display: none;
+}
+
+#weather_txt {
+	text-align: center;
+	font-size: large;
+	margin-left: 4%;
+	line-height: 1.5;
+}
+
+#news {
+	width: 50%;
+	float: right;
+	margin-left: 3%;
+	margin-right: 5%;
+	position: relative;
+	font-size: large;
+	font-weight: normal;
+	display: none;
+}
+
+#bbc {
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+.news_button {
+	background-color: lightpink;
+}
+
+.skill_item {
+	margin-left: 2%;
+	width: 110px;
+	height: 100px;
+}
+
+#downld {
+	cursor: pointer;
+	border-radius: 50%;
+	padding: 0.8%;
+	border: deeppink solid 3px;
+	text-decoration-color: black;
+}
+
+#weather_pic {
+	width: 500px;
+	height: 300px;
+}
